@@ -33,7 +33,7 @@ namespace ZooSite
         {
             zooContext.Database.EnsureDeleted();
             zooContext.Database.EnsureCreated();
-
+            zooContext.Database.EnsureCreated();
             app.UseMvc(routes =>
             {
                 routes.MapRoute(
